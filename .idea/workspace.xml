@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9de0c00-0693-4ddf-b619-1700f9449ebe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/juice/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/juice.rb" afterPath="$PROJECT_DIR$/app/models/juice.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/juice_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/juice_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/juice/index.html.erb" afterPath="$PROJECT_DIR$/app/views/juice/index.html.erb" />
     </list>
     <ignored path="MyJuiceApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +37,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/juice/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.22413793" vertical-offset="0" max-vertical-offset="870">
+            <state line="30" column="30" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.51724136" vertical-offset="0" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
@@ -542,7 +538,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/juice/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.22413793" vertical-offset="0" max-vertical-offset="870">
+        <state line="30" column="30" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.51724136" vertical-offset="0" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
