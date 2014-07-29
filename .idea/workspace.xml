@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9de0c00-0693-4ddf-b619-1700f9449ebe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/juice/index.html.erb" afterPath="$PROJECT_DIR$/app/views/juice/index.html.erb" />
-    </list>
+    <list default="true" id="e9de0c00-0693-4ddf-b619-1700f9449ebe" name="Default" comment="" />
     <ignored path="MyJuiceApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +35,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/juice/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="30" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.51724136" vertical-offset="0" max-vertical-offset="870">
+            <state line="33" column="26" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.5689655" vertical-offset="0" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
@@ -538,7 +536,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/juice/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="30" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.51724136" vertical-offset="0" max-vertical-offset="870">
+        <state line="33" column="26" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.5689655" vertical-offset="0" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
