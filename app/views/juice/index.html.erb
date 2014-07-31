@@ -1,48 +1,62 @@
-<div class="container" xmlns="http://www.w3.org/1999/html">
-  <div class="row">
-    <div class="span6">
+<div class="row">
+  <div class="span2">
+    <h3>
+      <a href="">Add Juice</a>
+    </h3>
+  </div>
+  <div class="span3">
+    <h3>
+      <a href="">Monthly Report</a>
+    </h3>
+  </div>
+  <div class="span3">
+    <h3>
+      <a href="">Year Report</a>
+    </h3>
+  </div>
+</div>
+<hr>
+
+<div class="row">
+  <div class="span6">
+    <div class="well">
+      <%= form_for @new_juice, :url => {:action => "add"} do |f| %>
+          <%= f.text_field :name, :autofocus => true, :placeholder => "Enter Name" %></br>
+          <%= f.text_field :price, :placeholder => "Enter Price" %></br>
+          <%= f.submit "Add Juice", class: "btn btn-primary" %>
+      <% end %>
 
 
-      <p>Juice List</p>
-      <hr>
-      <div class="well">
-        <%= form_for @new_juice, :url => {:action => "add"} do |f| %>
-            <%= f.text_field :name, :autofocus => true, :placeholder => "Enter Name"%></br>
-            <%= f.text_field :price, :placeholder => "Enter Price" %></br>
-            <%= f.submit "Add Juice", class: "btn btn-primary" %>
+      <% if flash[:error] %>
+          <div class="alert alert-error">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            <strong><%= flash[:error] %></strong>
+          </div>
+      <% end %>
+
+      <% if flash[:success] %>
+          <div class="alert alert-success">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            <strong><%= flash[:success] %></strong>
+          </div>
+      <% end %>
+
+      <table class="table">
+        <thead class="well">
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+        </tr>
+        <tbody>
+        <% @juices.each do |juice| %>
+            <tr>
+              <td><%= juice.name %></td>
+              <td><%= juice.price %></td>
+            </tr>
         <% end %>
-
-
-        <% if flash[:error] %>
-            <div class="alert alert-error">
-              <button type="button" class="close" data-dismiss="alert">×</button>
-              <strong><%= flash[:error] %></strong>
-            </div>
-        <% end %>
-
-        <% if flash[:success] %>
-            <div class="alert alert-success">
-              <button type="button" class="close" data-dismiss="alert">×</button>
-              <strong><%= flash[:success] %></strong>
-            </div>
-        <% end %>
-
-        <table class="table">
-          <thead class="well">
-          <tr>
-            <th>Name</th>
-            <th>Price</th>
-          </tr>
-          <tbody>
-          <% @juices.each do |juice| %>
-              <tr>
-                <td><%= juice.name %></td>
-                <td><%= juice.price %></td>
-              </tr>
-          <% end %>
-          </tbody>
-        </table>
-      </div>
+        </tbody>
+      </table>
     </div>
   </div>
+</div>
 </div>
