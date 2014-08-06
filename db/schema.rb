@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140729134645) do
+ActiveRecord::Schema.define(version: 20140805135023) do
 
   create_table "juices", force: true do |t|
     t.string   "name"
@@ -21,9 +21,8 @@ ActiveRecord::Schema.define(version: 20140729134645) do
   end
 
   create_table "monthly_reports", force: true do |t|
-    t.string   "name"
-    t.integer  "count"
-    t.integer  "total_price"
+    t.string   "juice_name"
+    t.integer  "quantity"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
