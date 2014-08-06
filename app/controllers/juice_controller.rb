@@ -12,6 +12,6 @@ class JuiceController < ApplicationController
     else
       flash[:success] = "#{juice[:name]} juice added successfully"
     end
-    redirect_to index_path
+    redirect_to juice_index_path
   end
 end
