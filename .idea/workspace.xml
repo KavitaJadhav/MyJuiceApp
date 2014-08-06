@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9de0c00-0693-4ddf-b619-1700f9449ebe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/juice_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/juice_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/monthly_reports/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/monthly_reports_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/monthly_reports_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyJuiceApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,28 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="juice_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/juice_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="32" selection-start="432" selection-end="432" vertical-scroll-proportion="0.23489933" vertical-offset="0" max-vertical-offset="894">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_common_layout.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_common_layout.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="4" selection-start="279" selection-end="279" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
+            <state line="17" column="4" selection-start="299" selection-end="299" vertical-scroll-proportion="0.28333333" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -56,7 +42,7 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+            <state line="4" column="18" selection-start="173" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -76,17 +62,19 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/models/juice.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb" />
         <option value="$PROJECT_DIR$/app/views/juice/index.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/juice_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/monthly_reports_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/monthly_reports/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="969" />
+    <option name="width" value="1920" />
+    <option name="height" value="999" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -179,6 +167,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monthly_reports" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,6 +315,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="LayoutCode.rearrangeEntriesRHTML" value="false" />
+    <property name="LayoutCode.rearrangeEntriesRuby" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/monthly_reports" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: MyJuiceApp">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -404,6 +402,26 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -506,7 +524,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="969" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="999" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -514,7 +532,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21845238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19114584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -544,9 +562,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21845238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -575,20 +593,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/juice/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="37" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <folding>
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="37" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb">
@@ -600,9 +605,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="300">
-          <folding />
-        </state>
+        <state line="12" column="7" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -614,9 +617,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140728133724_create_juices.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
@@ -628,9 +629,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/juice.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/juice_controller.rb">
@@ -642,27 +641,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/juice/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1005">
-          <folding>
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="27" column="0" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1005" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="300">
-          <folding />
-        </state>
+        <state line="12" column="7" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -674,9 +658,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140728133724_create_juices.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
@@ -688,9 +670,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/juice.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/juice_controller.rb">
@@ -702,27 +682,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/juice/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="6" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="570">
-          <folding>
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="32" column="6" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="570" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140728133724_create_juices.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/juice_controller.rb">
@@ -734,76 +699,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140728133724_create_juices.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="291" selection-end="291" vertical-scroll-proportion="0.20689656" vertical-offset="0" max-vertical-offset="870">
-          <folding />
-        </state>
+        <state line="12" column="7" selection-start="291" selection-end="291" vertical-scroll-proportion="0.20689656" vertical-offset="0" max-vertical-offset="870" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140728133724_create_juices.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.16778524" vertical-offset="0" max-vertical-offset="894">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="3" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.5033557" vertical-offset="0" max-vertical-offset="894">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="0.16778524" vertical-offset="0" max-vertical-offset="894" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/juice.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.06711409" vertical-offset="0" max-vertical-offset="894">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/juice/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="37" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="843">
-          <folding>
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407246120000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="4" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.06711409" vertical-offset="0" max-vertical-offset="894" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/monthly_reports_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.033557046" vertical-offset="0" max-vertical-offset="894">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="4" selection-start="279" selection-end="279" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.033557046" vertical-offset="0" max-vertical-offset="894" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
@@ -813,9 +729,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/monthly_reports/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="8" selection-start="493" selection-end="493" vertical-scroll-proportion="0.36666667" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/monthly_reports_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="72" selection-end="92" vertical-scroll-proportion="0.048701297" vertical-offset="0" max-vertical-offset="924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/juice/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="37" selection-start="0" selection-end="1280" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="750" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/juice_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="432" selection-end="432" vertical-scroll-proportion="0.23489933" vertical-offset="0" max-vertical-offset="894">
+        <state line="14" column="30" selection-start="430" selection-end="430" vertical-scroll-proportion="0.22727273" vertical-offset="0" max-vertical-offset="924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/monthly_report.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="6" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.48701298" vertical-offset="0" max-vertical-offset="924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="173" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="4" selection-start="299" selection-end="299" vertical-scroll-proportion="0.28333333" vertical-offset="0" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
