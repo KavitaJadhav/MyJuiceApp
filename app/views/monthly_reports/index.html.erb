@@ -1,0 +1,25 @@
+<%= render 'layouts/common_layout' %>
+
+<div class="row">
+  <div class="span6">
+    <div class="well">
+
+      <table class="table">
+        <thead class="well">
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+        </tr>
+        <tbody>
+        <% @monthly_report_data.each do |juice| %>
+            <tr>
+              <td><%= juice.name %></td>
+              <td><%= juice.quantity %></td>
+            </tr>
+        <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+</div>
