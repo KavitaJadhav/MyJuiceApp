@@ -24,22 +24,32 @@
           </div>
       <% end %>
 
-      <table class="table">
-        <thead class="well">
-        <tr>
-          <th>Name</th>
-          <th>Price</th>
-        </tr>
-        <tbody>
-        <% @juices.each do |juice| %>
+
+      <%= form_tag("toggle", :method => "post") do %>
+          <table class="table">
+            <thead class="well">
             <tr>
-              <td><%= juice.name %></td>
-              <td><%= juice.price %></td>
+              <th>availability</th>
+              <th>Name</th>
+              <th>Price</th>
             </tr>
-        <% end %>
-        </tbody>
-      </table>
+            <tbody>
+
+            <ul style="list-style-type:none;">
+              <% @juices.each do |juice| %>
+                  <tr>
+                    <td><li style="color:grey;"> <%= check_box_tag "juice_checkbox[]", juice.id %> </li></td>
+                      <td><%= juice.name %></td>
+                      <td><%= juice.price %></td>
+                  </tr>
+              <% end %>
+            </ul>
+            </tbody>
+          </table>
+
+          <%= submit_tag("Mark", :class => "btn btn-success") %>
+      <% end %>
+
     </div>
   </div>
-</div>
 </div>

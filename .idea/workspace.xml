@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9de0c00-0693-4ddf-b619-1700f9449ebe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/juice/index.html.erb" afterPath="$PROJECT_DIR$/app/views/juice/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyJuiceApp.iws" />
@@ -26,83 +26,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_common_layout.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/juice/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="4" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/monthly_reports/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="26" selection-start="0" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="year_report_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/year_report_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/year_report/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="135">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="monthly_reports_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/monthly_reports_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="16" selection-start="113" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="195">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20140808091058_add_avaliable_field_on_juice.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20140808091058_add_avaliable_field_on_juice.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="44" selection-start="114" selection-end="114" vertical-scroll-proportion="0.034602076" vertical-offset="0" max-vertical-offset="867">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20140806070859_create_year_reports.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20140806070859_create_year_reports.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <folding />
+            <state line="55" column="0" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.8965517" vertical-offset="45" max-vertical-offset="915">
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#tbody#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#td#0;n#tr#0;n#ul#0;n#tbody#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +52,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/models/juice.rb" />
-        <option value="$PROJECT_DIR$/app/views/juice/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/juice_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/monthly_reports_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/monthly_reports/index.html.erb" />
@@ -130,6 +60,7 @@
         <option value="$PROJECT_DIR$/app/views/year_report/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20140808091058_add_avaliable_field_on_juice.rb" />
+        <option value="$PROJECT_DIR$/app/views/juice/index.html.erb" />
       </list>
     </option>
   </component>
@@ -855,11 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/juice/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="37" selection-start="0" selection-end="1280" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="750" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/juice_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="30" selection-start="430" selection-end="430" vertical-scroll-proportion="0.22727273" vertical-offset="0" max-vertical-offset="924">
@@ -925,15 +851,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+        <state line="32" column="0" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140808091058_add_avaliable_field_on_juice.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="44" selection-start="114" selection-end="114" vertical-scroll-proportion="0.034602076" vertical-offset="0" max-vertical-offset="867">
+        <state line="2" column="44" selection-start="114" selection-end="114" vertical-scroll-proportion="0.033557046" vertical-offset="0" max-vertical-offset="894">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/juice/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.8965517" vertical-offset="45" max-vertical-offset="915">
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#tbody#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#td#0;n#tr#0;n#ul#0;n#tbody#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
