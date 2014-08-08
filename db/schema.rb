@@ -11,13 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140806070859) do
+ActiveRecord::Schema.define(version: 20140808091058) do
 
   create_table "juices", force: true do |t|
     t.string   "name"
     t.integer  "price"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "available"
   end
 
   create_table "monthly_reports", force: true do |t|
